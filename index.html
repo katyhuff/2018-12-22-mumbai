@@ -8,7 +8,7 @@
 
                 <meta name="description" content="
                 A discussion of best practices in scientific computing.
-                This was presented to the NESLS program at ORNL in 2017.
+                This was presented to the HackIllinois hackathon in 2018. 
                 ">
 		<meta name="author" content="Kathryn Huff">
 
@@ -45,12 +45,13 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-                                <section>
+<section>
+                              <!-- <section data-background-image='./images/ant-huff.png' data-background-size="contain" style="background: rgba(255, 255, 255, 0.80);">-->
                                         <h1>Doing Our Best</h1>
-                                        <h2>Practices in Scientific Computing</h2>
-                                        <br/>
-                                        <h3>Kathryn Huff. February 15, 2018</h3>
-                                        <h3>PyData, Ann Arbor</h3>
+                                      <img src="./images/ant-huff.png" height="200">
+                                        <h3>Practices in Scientific Computing</h3>
+                                        <h3>Kathryn (Katy) Huff</h3>
+<h4>HackIllinois, Urbana, IL, February 24, 2018</h4>
                                 </section>
 				<section>
                                         <section>
@@ -352,131 +353,6 @@
                                         
 					</section>
                                 </section>
-				<section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain">
-                                </section>
-                               <section 
-                                       data-background-image="./images/best-practices-paper.png" 
-                                       data-background-size="contain" 
-                                       style="background: rgba(167, 167, 255, 0.95);">
-                                       <h3>Write programs for people, not 
-                                               computers.</h3>
-                                        <ul>
-                                       <ul>
-                                       <li class='fragment'>A program should 
-                                               not require its readers to hold 
-                                               more than a handful of facts in 
-                                       memory at once.</li> 
-                                       <li class='fragment'>Make names 
-                                               consistent, distinctive, and 
-                                               meaningful.</li>
-                                        <li class='fragment'>Make code style and 
-                                                formatting consistent.</li> 
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Let the computer do the work.</h3>
-                                        <ul>
-                                        <li class="fragment">Make the computer repeat tasks.</li>
-                                        <li class="fragment">Save recent 
-                                                commands in a file for re-use.</li>
-                                        <li class="fragment">Use a build tool 
-                                                to automate workflows.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Make incremental changes.</h3>
-                                        <ul>
-                                        <li class="fragment">Work in small 
-                                                steps with frequent feedback 
-                                                and course correction.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Use a version control system.</h3>
-                                        <ul>
-                                        <li class="fragment">Put everything 
-                                                that has been created manually 
-                                                in version control.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Don't repeat yourself (or 
-                                                others).</h3>
-                                        <ul>
-                                        <li class="fragment">Every piece of 
-                                                data must have a single 
-                                                authoritative representation in 
-                                                the system.</li>
-                                        <li class="fragment">Modularize code 
-                                                rather than copying and 
-                                                pasting.</li>
-                                        <li class="fragment">Re-use code 
-                                                instead of rewriting it.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Plan for mistakes.</h3>
-                                        <ul>
-                                        <li class="fragment">Add assertions to 
-                                                programs to check their 
-                                                operation.</li>
-                                        <li class="fragment">Use an 
-                                                off-the-shelf unit testing 
-                                                library.</li>
-                                        <li class="fragment">Turn bugs into test cases.</li>
-                                        <li class="fragment">Use a symbolic debugger.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Optimize software only after it works 
-                                                correctly.</h3>
-                                        <ul>
-                                        <li class="fragment">Use a profiler to 
-                                                identify bottlenecks.</li>
-                                        <li class="fragment">Write code in the 
-                                                highest-level language 
-                                                possible.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Document design and purpose, not 
-                                                mechanics.</h3>
-                                        <ul>
-                                        <li class="fragment">Document 
-                                                interfaces and reasons, not 
-                                                implementations.</li>
-                                        <li class="fragment">Refactor code in 
-                                                preference to explaining how it 
-                                                works.</li>
-                                        <li class="fragment">Embed the 
-                                                documentation for a piece of 
-                                                software in that software.</li>
-                                       </ul>
-                                </section>
-                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
-                                       style="background: rgba(167, 167, 225, 0.95);">
-                                        <h3>Collaborate.</h3>
-                                        <ul>
-                                        <li class="fragment">Use pre-merge code 
-                                                reviews.</li>
-                                        <li class="fragment">Use pair 
-                                                programming when bringing 
-                                                someone new up to speed and 
-                                                when tackling particularly 
-                                                tricky problems.</li>
-                                        <li class="fragment">Use an issue 
-                                                tracking tool.</li>
-                                       </ul>
-                               </section>
-                               </section>
                                <section>
                                <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain">
                                </section>
@@ -821,7 +697,7 @@
 
                                 </section>
 				<section>
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Getting It Together</h2>
                                         &ldquo;
                                         Two of the biggest challenges 
@@ -837,7 +713,7 @@
                                       </blockquote>
 					</section>
 
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Merging Collaborative Work</h2>
                                         <ul>
                                           <li class="fragment">
@@ -859,7 +735,7 @@
                                           </p>
 
                                         </section>
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Peer Review For Code</h2>
                                         <ul>
                                           <li class="fragment">
@@ -884,8 +760,8 @@
 
 
                                         </section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
 
-					<section>
                                         <h2>Teamwork</h2>
                                         <ul>
                                           <li class="fragment">
@@ -907,8 +783,8 @@
                                           </p>
 
                                         </section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
 
-					<section>
                                         <h2>Software Handovers</h2>
                                         <ul>
                                           <li class="fragment">
@@ -941,7 +817,7 @@
 
                                 </section>
 				<section>
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Getting It Out There</h2>
                                         <blockquote cite="katy huff">
                                                 &ldquo;
@@ -953,7 +829,7 @@
                                         </section>
 
 
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Plotting</h2>
                                         <ul>
                                           <li class="fragment">
@@ -974,7 +850,7 @@
                                         </section>
 
 
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Writing</h2>
                                         <ul>
                                           <li class="fragment">
@@ -1000,7 +876,7 @@
                                           
                                         </section>
 
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Distribution Control</h2>
                                         <ul>
                                           <li class="fragment">
@@ -1024,7 +900,7 @@
                                         <p class="fragment">
                                         </section>
 
-					<section>
+                                       <section data-background-image="https://covers.oreillystatic.com/images/0636920033424/lrg.jpg" data-background-size="contain" style="background: rgba(255, 255, 255, 0.95);">
                                         <h2>Community Adoption</h2>
                                         <ul>
                                           <li class="fragment">
@@ -1060,9 +936,132 @@
                                         </section>
 
 
-
-
                                 </section>
+				<section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain">
+                                </section>
+                               <section 
+                                       data-background-image="./images/best-practices-paper.png" 
+                                       data-background-size="contain" 
+                                       style="background: rgba(167, 167, 255, 0.95);">
+                                       <h3>Write programs for people, not 
+                                               computers.</h3>
+                                        <ul>
+                                       <ul>
+                                       <li class='fragment'>A program should 
+                                               not require its readers to hold 
+                                               more than a handful of facts in 
+                                       memory at once.</li> 
+                                       <li class='fragment'>Make names 
+                                               consistent, distinctive, and 
+                                               meaningful.</li>
+                                        <li class='fragment'>Make code style and 
+                                                formatting consistent.</li> 
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Let the computer do the work.</h3>
+                                        <ul>
+                                        <li class="fragment">Make the computer repeat tasks.</li>
+                                        <li class="fragment">Save recent 
+                                                commands in a file for re-use.</li>
+                                        <li class="fragment">Use a build tool 
+                                                to automate workflows.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Make incremental changes.</h3>
+                                        <ul>
+                                        <li class="fragment">Work in small 
+                                                steps with frequent feedback 
+                                                and course correction.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Use a version control system.</h3>
+                                        <ul>
+                                        <li class="fragment">Put everything 
+                                                that has been created manually 
+                                                in version control.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Don't repeat yourself (or 
+                                                others).</h3>
+                                        <ul>
+                                        <li class="fragment">Every piece of 
+                                                data must have a single 
+                                                authoritative representation in 
+                                                the system.</li>
+                                        <li class="fragment">Modularize code 
+                                                rather than copying and 
+                                                pasting.</li>
+                                        <li class="fragment">Re-use code 
+                                                instead of rewriting it.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Plan for mistakes.</h3>
+                                        <ul>
+                                        <li class="fragment">Add assertions to 
+                                                programs to check their 
+                                                operation.</li>
+                                        <li class="fragment">Use an 
+                                                off-the-shelf unit testing 
+                                                library.</li>
+                                        <li class="fragment">Turn bugs into test cases.</li>
+                                        <li class="fragment">Use a symbolic debugger.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Optimize software only after it works 
+                                                correctly.</h3>
+                                        <ul>
+                                        <li class="fragment">Use a profiler to 
+                                                identify bottlenecks.</li>
+                                        <li class="fragment">Write code in the 
+                                                highest-level language 
+                                                possible.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Document design and purpose, not 
+                                                mechanics.</h3>
+                                        <ul>
+                                        <li class="fragment">Document 
+                                                interfaces and reasons, not 
+                                                implementations.</li>
+                                        <li class="fragment">Refactor code in 
+                                                preference to explaining how it 
+                                                works.</li>
+                                        <li class="fragment">Embed the 
+                                                documentation for a piece of 
+                                                software in that software.</li>
+                                       </ul>
+                                </section>
+                               <section data-background-image="./images/best-practices-paper.png" data-background-size="contain" 
+                                       style="background: rgba(167, 167, 225, 0.95);">
+                                        <h3>Collaborate.</h3>
+                                        <ul>
+                                        <li class="fragment">Use pre-merge code 
+                                                reviews.</li>
+                                        <li class="fragment">Use pair 
+                                                programming when bringing 
+                                                someone new up to speed and 
+                                                when tackling particularly 
+                                                tricky problems.</li>
+                                        <li class="fragment">Use an issue 
+                                                tracking tool.</li>
+                                       </ul>
+                               </section>
+                               </section>
 				<section>
                                         <section>
                                                 <span class="fragment">
@@ -1115,38 +1114,6 @@
   src="images/repro_wg_mission.png"
   alt="repro mission"></a>
 
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
-                                                <a href="http://bids.berkeley.edu"
-         class="image"><img
-  height="500"
-  src="images/jkitzes_flow_raw.png"
-  alt="justin kitzes flow"></a>
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
-                                                <a href="http://bids.berkeley.edu"
-         class="image"><img
-  height="500"
-  src="images/jkitzes_flow.png"
-  alt="justin kitzes flow"></a>
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
-                                                <span class="fragment">
-                                                        <a href="http://bids.berkeley.edu"
-          class="image"><img
-   height="500"
-   src="images/khuff_flow.png"
-   alt="khuff flow"></a>
-                                                </span>
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
-                                                <span class="fragment">
-                                                        <a href="http://bids.berkeley.edu"
-          class="image"><img
-   height="300"
-   src="images/basic_flow.png"
-   alt="basic flow"></a>
-                                                </span>
                                         </section>
                                         <section data-background="./images/repro_conf.jpg" data-background-size="cover">
                                         </section>
@@ -1257,26 +1224,6 @@
                                         <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover">
                                         </section>
                                         <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
-                                                <h3>Recommendations: Outliers</h3>
-                                                <blockquote>
-                                                        ... in our estimation, if someone
-                                                        was to try to reproduce our research it would probably be more
-                                                        natural for them to write their own scripts as this has the
-                                                        additional benefit that they might not fall into any error
-                                                        we may have accidentally introduced in our scripts.
-                                                </blockquote>
-                                        </section>
-                                        <section data-background="https://bids.berkeley.edu/sites/default/files/bids_dots_and_lines_overlay.png" data-background-size="cover">
-                                        </section>
-                                        <section data-background="https://bids.berkeley.edu/sites/default/files/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover">
-                                                <h2>Recommendations:
-                                                        Outliers</h2>
-                                                <blockquote>Scientific funding and the number of scientists available to do the work is finite.  Therefore not every scientific result can, or should be reproduced.</blockquote>
-
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover">
-                                        </section>
-                                        <section data-background="./images/bids_dots_and_lines_overlay.png"  data-transition="none" data-background-size="cover" style="background: rgba(255, 255, 255, 0.95);">
                                                 <a href="http://bids.berkeley.edu"
          class="image"><img
   height="400"
@@ -1363,6 +1310,9 @@
                                         </section>
 
 				<section>
+
+					    <section data-background-iframe="https://embed.polleverywhere.com/free_text_polls/6rtXpvEuiEVPvPX?controls=none&short_poll=true" data-background-interactive>
+					</section>
                                         <section>
                                         <h1>Resources</h1>
                                         Ok, I'm convinced. So how can one learn this stuff?
@@ -1370,15 +1320,15 @@
                                         <section>
                                         <h2>Online Resources</h2>
                                         <ul>
-                                          <li><a href="http://software-carpentry.org/">
-                                          Software Carpentry</a></li>
+                                          <li><a href="http://software-carpentry.org/"> Software Carpentry</a></li>
+                                          <li><a href="http://data-carpentry.org/"> Data Carpentry</a></li>
                                           <li>Version Control: Github, Pro Git book</li>
                                           <li>Testing: nose, goolgetest</li>
                                           <li>Documentation: Sphinx, Doxygen</li>
                                           <li><a href="http://python.berkeley.edu">
-                                          Python Worker's Party Listhost</a></li>
-                                          <li><a href="https://thehackerwithin.github.io/berkeley">
-                                          The Hacker Within Listhost</a></li>
+                                          Python Worker's Party</a></li>
+                                          <li><a href="https://thehackerwithin.github.io/illinois">
+                                          The Hacker Within</a></li>
                                         <ul>
                                         </section>
                                         <section>
@@ -1513,14 +1463,14 @@
 				<section>
 					<h1>THE END</h1>
                                         <h3>Katy Huff </h3>
-                                        <a href="https://katyhuff.github.io/2018-02-15-pydata">katyhuff.github.io/2018-02-15-pydata</a> 
+                                        <a href="https://katyhuff.github.io/2018-02-24-hackillinois">katyhuff.github.io/2018-02-24-hackillinois</a> 
 
 <br/>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img 
   alt="Creative Commons License" style="border-width:0" 
   src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span 
   xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Doing Our Best: Practices 
-  in Scientific Computing</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katyhuff.github.io" property="cc:attributionName" rel="cc:attributionURL">Kathryn Huff</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://katyhuff.github.io/2018-02-15-pydata" rel="dct:source">http://katyhuff.github.io/2018-02-15-pydata</a>.  
+  in Scientific Computing</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katyhuff.github.io" property="cc:attributionName" rel="cc:attributionURL">Kathryn Huff</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://katyhuff.github.io/2018-02-24-hackillinois" rel="dct:source">http://katyhuff.github.io/2018-02-24-hackillinois</a>.  
 				</section>
 
 			</div>
