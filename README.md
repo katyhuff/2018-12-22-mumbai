@@ -856,7 +856,7 @@ Limitations:
 - Only one descendant per slide section can be stretched
 
 
-### postMessage API
+### Postmessage API
 The framework has a built-in postMessage API that can be used when communicating with a presentation inside of another window. Here's an example showing how you'd make a reveal.js instance in the given window proceed to slide 2:
 
 ```javascript
